@@ -2,8 +2,8 @@ import pyautogui
 while (True):
 	l = ["tinder","happn","badoo","trulymadly","twoo"]
 	for i in range(5):
-		pyautogui.click(x=680, y=150, button='left')
-		pyautogui.click(x=680, y=150, button='left')
+		pyautogui.click(x=710, y=131, button='left')
+		pyautogui.click(x=710, y=131, button='left')
 		pyautogui.PAUSE = 5
 		pyautogui.typewrite(l[i]+'\n\n')
 		pyautogui.typewrite('\n\n')
